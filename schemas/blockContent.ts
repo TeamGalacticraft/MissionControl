@@ -15,6 +15,15 @@ export default defineType({
   name: 'blockContent',
   type: 'array',
   of: [
+    {
+      type: 'lineBreak',
+    },
+    {
+      type: 'youtube',
+    },
+    {
+      type: 'gallery',
+    },
     defineArrayMember({
       title: 'Block',
       type: 'block',
